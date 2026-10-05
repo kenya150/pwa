@@ -1,0 +1,23 @@
+{
+"id": "./",
+"name": "Coffee PWA",
+"short_name": "Coffee",
+"description": "Aplicación web progresiva de cafetería",
+"start_url": "./",
+"scope": "./",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#db4938",
+"icons": [
+{
+"src": "./imagenes/icons/gato6.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "./imagenes/icons/gato8.png",
+"sizes": "512x512",
+"type": "image/png"
+}
+]
+}

@@ -1,0 +1,176 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    body{
+        background-color:#e5583f;
+        font-family: 'Nunito',sans-serif;
+        font-size: 1rem;
+    }
+
+main{
+    max-width: px;
+    margin:auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+ul{
+    list-style:none;
+    display:flex;
+}
+li{
+    margin:1rem;
+}
+h1{
+    color:#fff;
+    margin-bottom:0.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Encabezado */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #777;
+}
+
+
+/* Contenedor de las cards */
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+
+    display: grid;
+
+    /* 3 cards por fila */
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* Card */
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+/* Imagen */
+
+.card img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* Contenido */
+
+.card-contenido {
+    padding: 20px;
+}
+
+.card-contenido h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.card-contenido p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+/* Botón */
+
+.card button {
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #2563eb;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+}
