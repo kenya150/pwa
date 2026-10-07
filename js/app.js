@@ -77,3 +77,17 @@ if ("serviceWorker" in navigator) {
     });
 
 }
+
+function mostrarInfo(boton) {
+
+    const informacion = boton.nextElementSibling;
+
+    if (informacion.style.display === "block") {
+        informacion.style.display = "none";
+        boton.textContent = "Ver más";
+    } else {
+        informacion.style.display = "block";
+        boton.textContent = "Ver menos";
+    }
+
+}

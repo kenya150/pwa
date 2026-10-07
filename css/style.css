@@ -174,3 +174,46 @@ header p {
     }
 
 }
+.detalle {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+}
+
+.detalle img {
+    width: 100%;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.detalle h2 {
+    font-size: 28px;
+}
+
+.detalle p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.detalle button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.informacion-extra {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.informacion-extra p {
+    margin: 5px 0;
+}
